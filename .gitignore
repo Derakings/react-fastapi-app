@@ -1,2 +1,11 @@
 Dockerfile
 docker-compose.yml
+deployment*.md
+*.sh
+*.log
+*.env
+*.pem
+node_modules/
+dist/
+trust-policy.json
+.vscode/

@@ -14,9 +14,7 @@ app = FastAPI()
 async def check():
     return 'hello'
 
-origins = [
-    "http://localhost:3000"
-]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
