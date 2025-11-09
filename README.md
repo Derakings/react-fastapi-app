@@ -116,11 +116,14 @@ Backend → http://localhost:8000
 
 - ☁️ Remote EC2 Server
 
-Frontend → http://18.201.153.8:3000
+Frontend → http://<ip_address>:3000
 
-Backend → http://18.201.153.8:8000
+Backend → http://<ip_address>:8000
 
 ---
+### AWS ECR PUBLIC IMAGES
+* public.ecr.aws/z8q0x8e7/finance-react-app:latest
+* public.ecr.aws/z8q0x8e7/finance-fastapi-app:latest
 
 
 
