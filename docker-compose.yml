@@ -1,0 +1,16 @@
+services:
+  backend:
+    image: 779846823004.dkr.ecr.eu-west-1.amazonaws.com/fastapi_app:latest
+    container_name: FastAPI-backend
+    ports:
+      - "8000:8000"
+
+  frontend:
+    image: 779846823004.dkr.ecr.eu-west-1.amazonaws.com/react_app:latest
+    container_name: React-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000

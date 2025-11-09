@@ -1,6 +1,3 @@
-Dockerfile
-docker-compose.yml
-deployment*.md
 *.sh
 *.log
 *.env
@@ -9,3 +6,5 @@ node_modules/
 dist/
 trust-policy.json
 .vscode/
+.DS_Store
+
